@@ -65,7 +65,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           width: 100,
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(30),
-                              color: const Color(0xff4c505b)),
+                              color: Colors.indigo),
                           child: IconButton(
                             color: Colors.white,
                             onPressed: () {},

@@ -16,10 +16,16 @@ class HomeScreen extends StatelessWidget {
     double visual2 = percentTangki2 / 100;
 
     return Scaffold(
+      backgroundColor: Colors.black26,
       appBar: AppBar(
+        backgroundColor: Colors.transparent,
         centerTitle: true,
         title: const Text(
           'Water Level',
+          style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+          ),
         ),
         actions: [
           IconButton(
@@ -69,10 +75,10 @@ class HomeScreen extends StatelessWidget {
                     flex: 1,
                     child: Padding(
                       padding: EdgeInsets.all(8.0),
-                      child: Text('TANGKI 1',
+                      child: Text('Tangki A',
                           style: TextStyle(
                               fontSize: 15,
-                              color: Colors.black,
+                              color: Colors.white,
                               fontWeight: FontWeight.bold)),
                     ),
                   ),
@@ -112,10 +118,10 @@ class HomeScreen extends StatelessWidget {
                     flex: 1,
                     child: Padding(
                       padding: EdgeInsets.all(8.0),
-                      child: Text('TANGKI 1',
+                      child: Text('Tangki B',
                           style: TextStyle(
                               fontSize: 15,
-                              color: Colors.black,
+                              color: Colors.white,
                               fontWeight: FontWeight.bold)),
                     ),
                   ),
